@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: Afw8Dx//////AAABmYTpUujG0kQUldLs+fbK71EImM1Popzwaekazuqb7NX0IuE0kZXBWt0jM5nJ76iWDi/6/0OmgVn3iU6OC9oK5drZDBLB6uLrATigkDiS0mXrT2p6/WY/wc+CLkmR9CXTN4L4I+bs+sZa+GH+MPxSVximFRt/Q/84l825J2fbU/2WR/8eZGkA6uMgfyya6PMltEhMEqtRMY5pqPty5XYI9AT/4YY+Z07fIBmWzGFaZDEYCyvTP602KY0umlQcS0jQmRq2z2f6DiAoe4WvZPOInupqUf4MG+HUb2HpKbQwDNQ62GkxRnE2pO5UaHq0VUBDIrcIWvhAILAjHNG8UtWPPpzg92b8j8I4zMRmWNJ6BXzT
     ufoLicenseKey: QVVEanJtai8vLy8vQUFBQUtDUTcwTVlJd0VwVmc4T0VFUXMwZ1Joc1ExS0VKYURiYTAvT3UwTzBVcWd4S3g2Smgxc3c4YjR2SGt1ZTgyOWJ1TklGczFmQW9aMGVMZTNLYnhBS1RMckIvTGdXWThNcG16Z2NzU09TNmM1T3RqMkNIdmZnQUovbXNzQkt3N0owTTJ3WE1yS00rQTRTL0xBT2FOOXY4dFZYalNOdmhTQU54Z2Y5ZG9XVS8xblFuMU8yT0UxZ0laMS82L3NXUXByN3k0T1pXWUZyM0hxQUE2dUtla2EyU2J0M3RDdWV5dkE1RW1jVnpWYUZmV01BRXQzajZYQ2JFbEZmc3N5TFBZSUtHV2c1VGtabFpRdk82aWZTT1dqNkZzUm9wOFgzRDh3dWlYVWU3N1JkY1pVeE5XNFk1cU5iSWNQZUtmdTBsUHFSRE9zZmlmUEh3a1Zqemh2Z1NaYVZ2S0VBY01qYVFDQ3lDNFBuY25LRGROM3I=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -21,7 +21,8 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
-    version: 7.2.23
+    version: 8.0.10
+    eulaAcceptedVersions: '{"Values":["7.2","8.0"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -46,19 +47,18 @@ MonoBehaviour:
   videoBackground:
     clippingMode: 0
     numDivisions: 2
-    videoBackgroundShader: {fileID: 15311, guid: 0000000000000000f000000000000000,
-      type: 0}
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
     trackingMode: 1
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
-    fusionMode: 7
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
