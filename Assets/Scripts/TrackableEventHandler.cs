@@ -62,7 +62,7 @@ public class TrackableEventHandler : MonoBehaviour, ITrackableEventHandler
         {
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
             OnTrackingFound();
-            ifFound.SetActive(true);
+            
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NO_POSE)
@@ -101,7 +101,7 @@ public class TrackableEventHandler : MonoBehaviour, ITrackableEventHandler
         foreach (var component in canvasComponents)
             component.enabled = true;
 
-
+        
     }
 
 
@@ -122,6 +122,7 @@ public class TrackableEventHandler : MonoBehaviour, ITrackableEventHandler
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+        
     }
 
     #endregion // PROTECTED_METHODS
