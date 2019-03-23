@@ -56,7 +56,13 @@
      <Compile Include="Assets\ScreenLoader.cs" />
      <Compile Include="Assets\Scripts\ExitGame.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\ObjectivesTextHandler.cs" />
+     <Compile Include="Assets\Scripts\RiddlesTextHandler.cs" />
+     <Compile Include="Assets\Scripts\RoomManager.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
+     <Compile Include="Assets\Scripts\Toggles\ObjectiveToggle.cs" />
+     <Compile Include="Assets\Scripts\Toggles\OptionsToggle.cs" />
+     <Compile Include="Assets\Scripts\Toggles\RiddlesToggle.cs" />
      <Compile Include="Assets\Scripts\TrackableEventHandler.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
