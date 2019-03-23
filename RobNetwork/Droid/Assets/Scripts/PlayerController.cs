@@ -86,16 +86,18 @@ public class PlayerController : NetworkBehaviour
 
         if (masterTimer)
         { //Only the MASTER timer controls the time
-            if (timer >= gameTime) // if timer exceeds maximum game time
+            if (timer == -1) // if server is waiting for players
             {
-                timer = -2;
-            }
-            else if (timer == -1) // if server is waiting for players
-            {
+                timer = gameTime;
+
                 if (NetworkServer.connections.Count >= minPlayers)
                 {
-                    timer = 0;
+                    timer = 3000;
                 }
+            }
+            else if (timer <= 0) // if timer exceeds maximum game time
+            {
+                timer = 0; //Game done.
             }
             else if (timer == -2)
             {
@@ -103,7 +105,7 @@ public class PlayerController : NetworkBehaviour
             }
             else
             {
-                timer += Time.deltaTime;
+                timer -= Time.deltaTime;
             }
         }
 
