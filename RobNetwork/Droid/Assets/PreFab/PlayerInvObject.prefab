@@ -260,8 +260,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerUnitPrefab: {fileID: 2674431777642146477, guid: e75af736dc33c9b46a6431ca97d8dec4,
     type: 3}
-  gameTime: 1800
-  timer: 0
+  gameTime: 2
+  timer: -1
   minPlayers: 2
   masterTimer: 0
 --- !u!114 &220536744488180308
