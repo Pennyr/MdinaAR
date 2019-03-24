@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class RiddlesTextHandler : MonoBehaviour {
 
     //public Text RiddleText;
-    public int stages = 6;
-
+    public int stages = 1;
+    /*
     readonly Dictionary<int, string> _questTextList = new Dictionary<int, string>()
     {
         {1, "It reminds you of mosquitos,\r\nyet its not one of those.\r\nIt refers to a place of worship,\r\nin many languages for Muslim fellowship.\r\nAnd you definitely must be aware,\r\nIt’s the name of a street that leads to a square."},
@@ -31,11 +31,19 @@ public class RiddlesTextHandler : MonoBehaviour {
             "decrees signed by the nobles and then we will proceed to the project " +
             "based on the majority’s vote."},
     };
+    */
 
+    Dictionary<int, string> _riddleTextList;
+
+    private void Start()
+    {
+        _riddleTextList = new Dictionary<int, string>();
+        _riddleTextList = ObjSerDes.getRiddles();
+    }
 
     // Update is called once per frame
     public void Update () {
-	    transform.Find("RidInfoTxt").gameObject.GetComponent<Text>().text = _questTextList[stages];
+	    transform.Find("RidInfoTxt").gameObject.GetComponent<Text>().text = _riddleTextList[stages];
 	    transform.Find("RidInfoNum").gameObject.GetComponent<Text>().text = "Riddle " + stages.ToString();
     }
 }

@@ -8,7 +8,7 @@ public class ObjectivesTextHandler : MonoBehaviour {
 
     //public Text QuestText;
     public int stage = 1;
-
+    /*
     readonly Dictionary<int, string> _questTextList = new Dictionary<int, string>()
     {
         {1, "Collect the letter from the knight next to the dungeons"},
@@ -33,6 +33,14 @@ public class ObjectivesTextHandler : MonoBehaviour {
            "based on the majority’s vote."},
     };
 
+    */
+    Dictionary<int, string> _questTextList;
+
+    private void Start()
+    {
+        _questTextList = new Dictionary<int, string>();
+        _questTextList = ObjSerDes.getObjectives();
+    }
 
     public void Update()
     {

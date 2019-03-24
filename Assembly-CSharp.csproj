@@ -65,6 +65,11 @@
     <Compile Include="Assets\Scripts\ExitGame.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\ObjectivesTextHandler.cs" />
+    <Compile Include="Assets\Scripts\ObjPlayer.cs" />
+    <Compile Include="Assets\Scripts\ObjQuest.cs" />
+    <Compile Include="Assets\Scripts\ObjRiddle.cs" />
+    <Compile Include="Assets\Scripts\ObjRoom.cs" />
+    <Compile Include="Assets\Scripts\ObjSerDes.cs" />
     <Compile Include="Assets\Scripts\RiddlesTextHandler.cs" />
     <Compile Include="Assets\Scripts\RoomManager.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
