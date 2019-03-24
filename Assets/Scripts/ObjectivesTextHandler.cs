@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ObjectivesTextHandler : MonoBehaviour {
 
-    public Text QuestText;
+    //public Text QuestText;
     public int stage = 1;
 
     readonly Dictionary<int, string> _questTextList = new Dictionary<int, string>()
@@ -36,6 +36,7 @@ public class ObjectivesTextHandler : MonoBehaviour {
 
     public void Update()
     {
-        transform.Find("QuestInfoTxt").gameObject.GetComponent<Text>().text = _questTextList[stage];
+        transform.Find("ObjInfoTxt").gameObject.GetComponent<Text>().text = _questTextList[stage];
+        transform.Find("ObjInfoNum").gameObject.GetComponent<Text>().text = "Quest " + stage.ToString();
     }
 }

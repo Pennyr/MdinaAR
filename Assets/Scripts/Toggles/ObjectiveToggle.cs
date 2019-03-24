@@ -6,11 +6,19 @@ public class ObjectiveToggle : MonoBehaviour {
 
     public GameObject Menu;
 
-    public void ToggleMenu()
+    public void ShowMenu()
     {
-        Debug.Log("Toggled" + Menu.activeSelf + " => " + !Menu.activeSelf);
+        Debug.Log("Toggled");
 
-        Menu.SetActive(!Menu.activeSelf);
+        Menu.SetActive(true);
+
+    }
+
+    public void HideMenu()
+    {
+        Debug.Log("Toggled");
+
+        Menu.SetActive(false);
 
     }
 }
