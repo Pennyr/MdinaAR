@@ -1,0 +1,7 @@
+D:\Rene'\Skola\TUI\Rene\Markers\MdinaAR\MdinaAR\Server\Server\bin\Debug\Server.exe.config
+D:\Rene'\Skola\TUI\Rene\Markers\MdinaAR\MdinaAR\Server\Server\bin\Debug\Server.exe
+D:\Rene'\Skola\TUI\Rene\Markers\MdinaAR\MdinaAR\Server\Server\bin\Debug\Server.pdb
+D:\Rene'\Skola\TUI\Rene\Markers\MdinaAR\MdinaAR\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+D:\Rene'\Skola\TUI\Rene\Markers\MdinaAR\MdinaAR\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\Rene'\Skola\TUI\Rene\Markers\MdinaAR\MdinaAR\Server\Server\obj\Debug\Server.exe
+D:\Rene'\Skola\TUI\Rene\Markers\MdinaAR\MdinaAR\Server\Server\obj\Debug\Server.pdb
