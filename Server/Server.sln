@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{263DE9CE-AA19-473B-80CB-201B8BBB94A7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Bindings", "Bindings\Bindings.shproj", "{4D577D30-D982-42F6-9E5B-9DD2447A8B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{625434D8-789B-4B97-A453-AD858B22AE0F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Bindings\Bindings.projitems*{263de9ce-aa19-473b-80cb-201b8bbb94a7}*SharedItemsImports = 4
+		Bindings\Bindings.projitems*{4d577d30-d982-42f6-9e5b-9dd2447a8b0d}*SharedItemsImports = 13
+		Bindings\Bindings.projitems*{625434d8-789b-4b97-a453-ad858b22ae0f}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{263DE9CE-AA19-473B-80CB-201B8BBB94A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263DE9CE-AA19-473B-80CB-201B8BBB94A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263DE9CE-AA19-473B-80CB-201B8BBB94A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263DE9CE-AA19-473B-80CB-201B8BBB94A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625434D8-789B-4B97-A453-AD858B22AE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625434D8-789B-4B97-A453-AD858B22AE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625434D8-789B-4B97-A453-AD858B22AE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625434D8-789B-4B97-A453-AD858B22AE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9C9354A-B9C4-4770-8ECC-D37E1D5CCFBE}
+	EndGlobalSection
+EndGlobal
